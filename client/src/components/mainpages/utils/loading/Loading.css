@@ -1,0 +1,26 @@
+.load_page{
+    background:#fff;
+    overflow:hidden;
+}
+
+.loader{
+    width:300px;
+    height:300px;
+    margin:auto;
+}
+
+.loader div{
+    width:calc(100%-15px);
+    height:calc(100%-15px);
+    border:2px solid #fff;
+    border-top:2px solid crimson;
+    border-radius:50%;
+    /*Thuộc tính animation này sẽ giúp vật thể xoay rất nhanh(nếu giá trị thời gian càng lớn), di chuyển tuyến tính và liên tục thay đổi chiều*/
+    animation:rotate 10s linear infinite alternate-reverse;
+}
+
+/*Thuộc tính animation @keyframes sẽ giúp vật thể xoay 80 độ khi hiệu ứng animaiton hoàn thành 50%, và vật thể sẽ quay 360 độ khi hiệu ứng animation hoàn thành 100%*/
+@keyframes rotate{
+    50%{transform:rotate(80deg);} 
+    100%{transform:rotate(360deg);}
+}

@@ -1,0 +1,61 @@
+/*Profile Sidebar Menu*/
+.profile-sidebar-general-addresses {
+  margin: 15px 50px;
+  background-color: #fff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  max-width: 300px;
+  width: 100%;
+  min-height: 600px;
+  position: absolute;
+}
+
+.profile-sidebar-general-addresses h3 {
+  width: 90%;
+  text-align: center;
+  border-bottom: 0.5px solid rgb(78, 75, 75);
+  line-height: 0.1em;
+  margin: 30px 10px 10px 10px;
+}
+
+/*Addresses Content Display*/
+.profile-btn-add-addresses {
+  background-color: rgb(80, 196, 231);
+  color: white;
+  height: 50px;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  left: 25rem;
+  top: 6rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-addresses {
+  background-color: rgb(80, 196, 231);
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 25rem;
+  top: 10rem;
+}
+
+.address-click-edit {
+  background-color: rgb(69, 210, 158);
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.address-click-delete {
+  background-color: rgb(237, 84, 84);
+  width: 100px;
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}

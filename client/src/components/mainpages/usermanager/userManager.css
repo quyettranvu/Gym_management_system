@@ -1,0 +1,22 @@
+.table_usermanager {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table_usermanager td {
+  padding: 8px;
+}
+
+.table_usermanager thead th {
+  text-align: center;
+}
+
+.table_usermanager img {
+  display: block;
+  margin: 0 auto 8px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}

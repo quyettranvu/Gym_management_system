@@ -1,0 +1,95 @@
+.background-here {
+  position: absolute;
+  background-image: url("../../../images/gym_background.gif");
+  width: 100%;
+  height: 92vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-page {
+  max-width: 500px;
+  border: 2px solid rgb(3, 165, 206);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 100px auto;
+  background-color: aqua;
+}
+
+.login-page h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+/*Login Form*/
+.login-page form input,
+.login-page form button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 5px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+}
+
+.login-page form .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page form button {
+  width: 150px;
+  background: rgb(3, 165, 206);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*a ở đây là anchor tag(tức thẻ liên kết)*/
+.login-page form a {
+  color: orange;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+/*Password Toggle*/
+.login-page .password-toggle {
+  float: right;
+  margin-right: 6px;
+  margin-top: -40px;
+  position: relative;
+}
+
+.login-page .forget-password {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-page h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 50px 0 20px;
+}
+
+.login-page h3 span {
+  background: aqua;
+  padding: 0 10px;
+}
+
+.login-page .google-btn,
+.facebook-btn {
+  font-size: 15px;
+}
+
+.login-page .google-btn img {
+  vertical-align: middle;
+}
+
+.login-page .facebook-btn img {
+  vertical-align: middle;
+  margin-left: 100px;
+}

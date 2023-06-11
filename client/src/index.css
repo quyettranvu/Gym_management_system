@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  width: 100%;
+  min-height: auto;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 35px #eee; /*giá trị thứ 1 và 2:X,Y offset; giá trị thứ 3:blur-radius*/
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/*-------------------------Header----------------------*/
+@import url("./components/headers/header.css");
+
+/*-------------------------Products----------------------*/
+@import url("./components/mainpages/products/products.css");
+
+/*-------------------------Login-------------------------*/
+@import url("./components/mainpages/auth/login.css");
+
+/*-------------------------Cart--------------------------*/
+@import url("./components/mainpages/cart/cart.css");
+
+/*-------------------------History-----------------------*/
+@import url("./components/mainpages/cart/history/history.css");
+
+/*------------------------UserProfile---------------------*/
+@import url("./components/mainpages/userProfile/userProfile.css");
+
+/*------------------------UserManager---------------------*/
+@import url("./components/mainpages/usermanager/userManager.css");
+
+/*------------------------Dashboard-----------------------*/
+@import url("./components/mainpages/dashboard/dashboard.css");
+
+/*------------------------Delivery------------------------*/
+@import url("./components/mainpages/delivery/delivery.css");
+
+/*------------------------Popup---------------------------*/
+@import url("./components/mainpages/popup/popup.css");
+
+/*-------------------------Addresses----------------------*/
+@import url("./components/mainpages/addresses/addresses.css");
+
+/*-------------------------Addresses----------------------*/
+@import url("./components/mainpages/belovedproducts/belovedproducts.css");
+
+/*-------------------------Help/Messenger-----------------*/
+@import url("./components/mainpages/messenger/messenger.css");
+
+@import url("./components/mainpages/message/message.css");
+
+@import url("./components/mainpages/chatOnline/chatOnline.css");
+
+/*-------------------------Conversations------------------*/
+@import url("./components/mainpages/conversations/conversations.css");
+
+/*-------------------------Categories---------------------*/
+@import url("./components/mainpages/categories/categories.css");
+
+/*-------------------------Create Product-----------------*/
+@import url("./components/mainpages/createProduct/createProduct.css");
+
+/*-------------------------Footer-------------------------*/
+@import url("./components/footers/footer.css");

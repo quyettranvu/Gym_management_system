@@ -1,0 +1,113 @@
+.popup-over-lay {
+  height: 100vh; /*important:height and width*/
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Popup Header*/
+.popup-header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 16rem;
+  color: rgb(12, 231, 231);
+  font-size: 20px;
+  text-decoration: underline blue;
+}
+
+.popup-header-addresses {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 11rem;
+  color: rgb(12, 231, 231);
+  font-size: 20px;
+  text-decoration: underline blue;
+}
+
+/*Popup Container*/
+.popup-modalContainer {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: white;
+  height: 300px;
+  width: 400px;
+}
+
+.popup-modalContainer-addresses {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: white;
+  height: 450px;
+  width: 400px;
+}
+
+/*Content*/
+.popup-modalContainer input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  width: 100%;
+}
+
+.popup-modalContainer-addresses input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  width: 100%;
+}
+
+/*Popup Close Button*/
+.popup-closeBtn {
+  position: absolute;
+  top: 16rem;
+  right: 38rem;
+  width: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-closeBtn-addresses {
+  position: absolute;
+  top: 11rem;
+  right: 38rem;
+  width: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-closeBtn:hover,
+.popup-closeBtn-addresses:hover {
+  background-color: rgb(153, 192, 219);
+}
+
+.popup-submit {
+  margin-left: 35%;
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  color: red;
+  background-color: aqua;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Popup Toggle Icon*/
+.password-toggle-popup {
+  float: right;
+  margin-right: 6px;
+  margin-top: -30px;
+  position: relative;
+}

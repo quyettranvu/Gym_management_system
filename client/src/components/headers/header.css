@@ -1,0 +1,153 @@
+/*Header*/
+header {
+  min-height: 70px;
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  background-image: url("../../images/snowny_flake.jpg");
+}
+
+header .logo {
+  flex: 1;
+}
+
+header a {
+  text-transform: uppercase;
+  color: #555;
+}
+
+header ul li {
+  display: inline-block;
+  opacity: 0.7;
+  padding: 0 20px;
+}
+
+header ul li:hover {
+  opacity: 1;
+}
+
+/* Menu dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 4rem;
+  right: 25rem;
+  background-color: #b6ffc1;
+  border-radius: var(--border--radius);
+  width: 150px;
+  padding: 10px 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--speed) ease, transform var(--speed) ease;
+  transform: translateY(-20px);
+  z-index: 1;
+}
+
+.dropdown-menu:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  border-right: 20px solid transparent;
+  border-left: 13px solid transparent;
+  border-top: 13px solid #b6ffc1;
+  transform: rotate(180deg);
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown-menu ul li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu ul li:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown-menu ul li a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+  width: 100%;
+  margin: 0;
+}
+
+.dropdown-menu ul li a:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/*Cart*/
+.menu {
+  display: none;
+}
+
+.cart-icon {
+  position: relative;
+  margin-right: 20px;
+}
+
+.cart-icon span {
+  background: crimson;
+  border-radius: 20px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  padding: 5x 7px;
+  font-size: 15px;
+}
+
+/*Dropdown Profile*/
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-profile {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-profile li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-profile li:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-profile:hover .dropdown-content-profile {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-profile:hover .dropdown-dropbtn-profile {
+  cursor: pointer;
+}
+
+.dropdown-profile .dropdown-dropbtn-profile {
+  height: 30px;
+  border-radius: 20%;
+}

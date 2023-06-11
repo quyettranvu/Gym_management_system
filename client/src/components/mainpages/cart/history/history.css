@@ -1,0 +1,93 @@
+.history-page {
+  min-height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.history-page h2,
+h3 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.history-page table {
+  margin: auto;
+  width: 100%;
+}
+
+.history-page table,
+th,
+tr,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+table a {
+  color: rgb(3, 165, 206);
+}
+
+.history-page img {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.history-delete {
+  margin-left: 15px;
+  color: red;
+  font-size: 15px;
+}
+
+/*Delivery Options*/
+.delivery-options-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delivery-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+
+.delivery-option h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.delivery-option p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.delivery-option button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.delivery-option button:hover {
+  background-color: darkblue;
+}

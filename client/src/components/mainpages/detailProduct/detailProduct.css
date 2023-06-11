@@ -1,0 +1,160 @@
+.detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 150%;
+}
+
+.detail img {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+  height: 450px;
+  object-fit: contain; /*thuộc tính giúp bọc đối tượng lại đẹp hơn*/
+  display: block;
+}
+
+.cart_comment:hover {
+  background-color: #0071bd;
+  color: #fff;
+}
+
+.box-detail {
+  max-width: 500px;
+  width: 100%;
+  margin: 5px 20px;
+}
+
+.box-detail .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-detail .add_beloved {
+  margin-bottom: 20px;
+}
+
+.box-detail .add_beloved:hover {
+  /* background-color: red; */
+  color: red;
+  cursor: pointer;
+}
+
+.box-detail h2 {
+  text-transform: uppercase;
+  color: darkblue;
+  letter-spacing: 2px;
+  font-weight: 2rem;
+}
+
+.box-detail p {
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.box-detail .cart {
+  background: #333;
+  color: white;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box-detail .cart_comment {
+  background: #333;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 170px;
+  border-radius: 0;
+  margin-top: -37px;
+  height: 47px;
+}
+
+.box-detail button {
+  display: block;
+  font-size: 25px;
+  background-color: pink;
+  border-radius: 15px;
+}
+
+/*User's Reviews*/
+.comments-container {
+  padding: 20px;
+}
+
+.comments-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #b9e1ff;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative; /* new rule */
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-details {
+  flex: 1;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.comment-buttons {
+  /* new rule */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+}
+
+.comment-click-edit {
+  background-color: rgb(69, 210, 158);
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.comment-click-delete {
+  background-color: rgb(237, 84, 84);
+  width: 100px;
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}

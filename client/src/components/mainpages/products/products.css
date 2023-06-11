@@ -1,0 +1,243 @@
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /*thuộc tính grid-template-column để thiết lập hình ảnh hiển thị ở dạng khung hình*/
+  justify-items: center;
+  margin: 20px 0;
+}
+
+:root {
+  --surface-color: rgb(36, 196, 220);
+  --curve: 40;
+}
+
+/*--------------------------Product Item---------------------------*/
+@import url("../utils/productItem/productITem.css");
+
+/*--------------------------Products-------------------------------*/
+@import url("../detailProduct/detailProduct.css");
+
+.delete-all {
+  text-align: right;
+  margin: 20px;
+}
+
+.delete-all input {
+  height: 25px;
+  width: 25px;
+  transform: translateY(5px);
+  margin: 0 15px;
+}
+
+.delete-all span {
+  text-transform: uppercase;
+  color: rgb(3, 165, 206);
+  letter-spacing: 1.3px;
+}
+
+.delete-all button {
+  border: 1px solid red;
+  padding: 10px 25px;
+  color: crimson;
+  text-transform: uppercase;
+}
+
+/*------------------Filters Menu----------------------*/
+.filter_menu {
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.filter_menu section,
+input {
+  border: 1px solid #ccc;
+  outline: none;
+  height: 40px;
+  padding: 0 5px;
+}
+
+.filter_menu input {
+  flex: 1; /*Việc này sẽ khiến thanh input sẽ kéo ngang dài chiếm hết*/
+  margin: 0 10px;
+}
+
+/*----------------------Header Page Content--------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 90%;
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card__image {
+  width: 100%;
+  height: 80%;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: calc(var(--curve) * 1px);
+  background-color: var(--surface-color);
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 0.3em;
+  color: #6a515e;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";
+  font-size: 0.8em;
+  color: #d7bdca;
+}
+
+.card__status {
+  font-size: 0.8em;
+  color: #d7bdca;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #1b0a12;
+  font-family: "MockFlowFont";
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/*----------------------Pagination-----------------*/
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 5px;
+}
+
+.pagination .page-num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: #5ab1bb;
+  color: #fff;
+}
+
+.pagination .active {
+  background-color: #5ab1bb;
+}
+
+/*----------------------Load More------------------*/
+.load_more {
+  text-align: center;
+}
+
+.load_more button {
+  padding: 10px 25px;
+  margin: 20px;
+  border: 1px solid #555;
+  text-transform: capitalize;
+}
+
+/*----------------------Promotions------------------*/
+.promo-coupon {
+  border: 5px dotted #bbb;
+  /* Dotted border */
+  width: 50%;
+  /* Rounded border */
+  border-radius: 15px;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.promo-image {
+  width: 100%;
+}
+
+.promo-container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo-promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.promo-expire {
+  color: red;
+}
+
+.footer-shop {
+  position: relative;
+  margin-top: 20rem;
+}
