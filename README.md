@@ -6,6 +6,7 @@ Technology and language
 * React
 * Context API
 * Bootstrap 5
+* Alan AI
 * Nodejs / Express JS
 * MongoDB 
 * Cloudinary
