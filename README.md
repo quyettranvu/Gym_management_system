@@ -13,7 +13,7 @@ Technology and language
 * Socket IO
 
 Member 
-* Trần Vũ Quyết(quyettranvu): A healthy mind can only be found in a healthy body 💪💪💪
+* Trần Vũ Quyết(quyettranvu): A healthy mind should be in a healthy body 💪💪💪
 ![me](https://github.com/quyettranvu/Gym_management_system/assets/79063319/83c7b8d3-af89-46c4-a36f-f4c8a7822885)
 
 Thanks 
