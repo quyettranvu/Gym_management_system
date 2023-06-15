@@ -10,6 +10,7 @@ Technology and language
 * Nodejs / Express JS
 * MongoDB 
 * Cloudinary
+* Socket IO
 
 Member 
 * Trần Vũ Quyết(quyettranvu) 
