@@ -2,7 +2,9 @@
 
 Demo: 
 * User-role functions of gym management system: https://youtu.be/VCOpffLjpjU
+* Admin-role functions of gym management system: https://youtu.be/fpxC91Qv6Tc
 * Function voice detector: https://youtu.be/6GMsUmH9EYk
+  
 Technology and language
 * React
 * Context API
