@@ -1,7 +1,8 @@
 # **GYM TASKS MANAGEMENT ON ADAPTIVE WEBSITE INTEGRATED WITH ALAN AI(VOICE DETECTION FILTERING PRODUCTS)**
 
-Demo: https://youtu.be/sD8LBDQfKwM
-
+Demo: 
+* User-role functions of gym management system: https://youtu.be/VCOpffLjpjU
+* Function voice detector: https://youtu.be/6GMsUmH9EYk
 Technology and language
 * React
 * Context API
