@@ -23,3 +23,8 @@ Thanks
 
 PH. D. Тарасов А.Г., Moscow State University of Technology "Stankin" for supporting me in many ways. Today(13/06/2023) I have successfully defended my university graduation thesis and I will continue to try and make more efforts in the upcoming journey, wish you always healthy and happy <3<3<3
 
+
+Further vision
+
+A migration from MERN to TERN Stack in trend 2023 besides powers of Nextjs/Nestjs/PostgreSQL
+https://www.tigrisdata.com/blog/tern-stack/
